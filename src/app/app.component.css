@@ -1,0 +1,51 @@
+.stopWatch{
+    width:400px;
+    height:500px;
+    margin:100px auto;
+    /* border:1px solid black; */
+    /* background: linear-gradient(to bottom, #ff3399 0%, #ff9999 100%); */
+    background-color: #fff;
+    border-radius:5px;
+    box-sizing: border-box;
+
+}
+.header{
+    text-align:center;
+    color: white;
+    background-color: rgb(2, 2, 2);
+    padding:20px;
+    /* box-sizing: border-box; */
+    /* width:400px; */
+}
+p{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:rgb(10, 10, 10);
+    font-size:30px;
+}
+.forButtons{
+    position:absolute;
+    top:60%;
+    display:flex;
+    justify-content:space-around;
+    width:400px;
+    /* border:1px solid black; */
+}
+button{
+    padding:5px;
+    font-size:15px;
+    border-style: solid;
+    border:1px solid white;
+    border-radius:5px;
+    /* margin-right:10px; */
+    display:block;
+    width:120px;
+    background-color: rgb(3, 50, 82);
+    color:white;
+    cursor:pointer;
+}
+button:hover{
+    background-color: rgb(19, 30, 61);
+}
